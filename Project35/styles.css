@@ -1,0 +1,31 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: Inconsolata, Monaco, Consolas, Courier New, Courier;
+  width: 100%;
+}
+
+#in {
+  font-family: Inconsolata, Monaco, Consolas, Courier New, Courier;
+  width: 30%;
+  margin-left: 20px
+}
+h1 {
+  margin-left: 20px;
+}
+#button {
+  font-family: Inconsolata, Monaco, Consolas, Courier New, Courier;
+}
+
+#suggestionsSelector {
+  margin-left: 20px;
+}
+
+#circle {
+  width: 100px;
+  height: 100px;
+  background: red;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+  border-radius: 50px;
+}
