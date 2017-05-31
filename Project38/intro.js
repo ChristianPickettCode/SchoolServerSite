@@ -7,5 +7,5 @@ function getIntroVals() {
     window.location.href = "courses.html?subject=" + introSelectSubject + "&term=" + introSelectTerm + "&autoref=none";
   }
 }
-//new
+
 //window.onload = init;
