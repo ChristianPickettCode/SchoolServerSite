@@ -192,7 +192,7 @@ function changeBack(x) {
 
 function htmlOutput(coursesArr, today) {
 
-  var year = "2016-2017"
+  var year = "2017-2018"
   var url = "https://www.mcgill.ca/study/" + year + "/courses/"
   var strOut = "<ul>";
 
