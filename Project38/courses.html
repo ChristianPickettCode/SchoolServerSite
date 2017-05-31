@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Class</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <h1 id="pageTitle"><a id="pageTitleLink" href="/">Class</a></h1>
+    <div class="header">
+
+      <button type="button" onclick="toggleData();"id="btn">Toggle All/Today</button>
+      <select id="courseSuggestions"></select>
+      <button type="button" id="searchBtn" onclick="searchCourseBasedOnSubject();">Search</button>
+      <select id="autoRefreshSelect" onchange="selectChange(this);">
+        <option value="" disabled selected id="default">AutoRefresh</option>
+        <option value="none" id="none">Don't</option>
+        <option value="5s" id="5s">5s</option>
+        <!--<option value="30s" id ="30s">30s</option>-->
+        <option value="1m" id="1m">1m</option>
+        <option value="5m" id="5m">5m</option>
+        <option value="10m" id="10m">10m</option>
+      </select>
+
+      <!--<input type="checkbox" id="refreshCheckBox" onchange="checkboxChange(this);">-->
+
+
+      <!--<button type="button" id="refreshBtn" onclick="refreshOutput();">Refresh</button>-->
+      <!--<div class="note">
+        <p>Some of the courses are duplicated because they have multiple locations</p>
+      </div>-->
+    </div>
+
+    <br><br>
+    <div id="output"></div>
+
+
+
+  </body>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="server.js"></script>
+</html>

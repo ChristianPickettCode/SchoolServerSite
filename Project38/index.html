@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Class</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <div id="introContainer">
+      <div id="searchField">
+
+        <h1 id="introTitle">Class</h1>
+
+        <select id="introSelectSubjects">
+          <option value="" disabled selected>Subject</option>
+          <option value="science">Science</option>
+          <option value="arts">Arts</option>
+          <option value="management">Management</option>
+          <option value="engineering">Engineering</option>
+        </select>
+        <select id="introSelectTerm" name="">
+          <option value="" disabled selected>Term</option>
+          <option value="fall">Fall</option>
+          <!--<option value="winter">Winter</option>-->
+        </select>
+        <input type="submit"value="Submit" id="introSearchBtn" onclick="getIntroVals();">
+      </div>
+
+    </div>
+
+  </body>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="intro.js"></script>
+</html>
