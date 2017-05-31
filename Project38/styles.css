@@ -1,0 +1,138 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#introContainer {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#searchField {
+  width: 40%;
+  height: 25%;
+
+  display: block;
+  margin: 0 auto;
+  /*border-style: solid;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#autoRefreshSelect {
+  float: right;
+}
+
+#pageTitle {
+  text-align: center;
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pageTitleLink {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+}
+
+#introSelectSubjects,
+#introSelectTerm,
+#introSearchBtn {
+  margin: 1% 1% 1% 2%;
+  height: 25%;
+
+  border: none;
+  border: solid;
+  border-radius: 5px;
+  border-color: black;
+
+  color: black;
+  background-color: white;
+}
+#introSelectSubjects {
+  width: 40%;
+
+}
+#introSelectTerm {
+  width: 30%;
+
+}
+#introSearchBtn {
+  width: 18%;
+}
+#introTitle {
+  margin: 0;
+  margin: 4% 0;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+}
+.header {
+  width: 100%;
+  float: right;
+}
+#btn {
+  float: right;
+  margin-right: 2%;
+}
+
+#courseSuggestions {
+  float: left;
+  margin-left: 2%;
+}
+
+#searchBtn {
+  float: left;
+}
+
+
+#output {
+  font-family: sans-serif;
+}
+
+.item {
+  height: 100%;
+  width: 100%;
+
+  line-height: 15px;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: safe center;
+
+}
+a {
+  font-size: 0.8em;
+  display: table-cell;
+  vertical-align: middle;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+
+}
+
+
+li {
+  display: table;
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  padding: 0;
+  text-align: center;
+}
